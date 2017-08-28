@@ -9,7 +9,7 @@ elsif RUBY_VERSION < '2.2.2'
 end
 gem 'i18n', '< 0.7.0' if RUBY_VERSION < '1.9.3'
 gem "tlsmail" if RUBY_VERSION <= '1.8.6'
-gem "mime-types", "~> 1.16"
+gem "mime-types", "~> 2.3"
 gem "treetop", "~> 1.4.10"
 
 gem 'jruby-openssl', :platform => :jruby
